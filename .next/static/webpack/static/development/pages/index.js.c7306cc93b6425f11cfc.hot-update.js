@@ -11,66 +11,42 @@ webpackHotUpdate("static\\development\\pages\\index.js",{
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Component_Problem001_Problem001__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Component/Problem001/Problem001 */ "./Component/Problem001/Problem001.js");
+/* harmony import */ var _Component_Problem002_Problem002__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Component/Problem002/Problem002 */ "./Component/Problem002/Problem002.js");
+/* harmony import */ var _Component_Problem003_Problem003__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Component/Problem003/Problem003 */ "./Component/Problem003/Problem003.js");
 var _jsxFileName = "C:\\Users\\mpatel\\source\\project\\projectEuler100\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+
+
+
 var App = function App() {
-  var arr = [];
-
-  for (var i = 0; i < 1000; i++) {
-    if (i % 3 == 0 || i % 5 == 0) {
-      arr.push(i);
-    }
-  }
-
-  var sum = arr.reduce(function (a, r) {
-    return a + r;
-  });
-  console.log(sum);
-  return __jsx("div", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 7
     },
     __self: this
-  }, __jsx("h1", {
+  }, "#ProjectEuler100"), __jsx(_Component_Problem001_Problem001__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 8
     },
     __self: this
-  }, "#ProjectEuler100"), __jsx("div", {
+  }), __jsx(_Component_Problem002_Problem002__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 9
     },
     __self: this
-  }, __jsx("h3", {
+  }), __jsx(_Component_Problem003_Problem003__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 10
     },
     __self: this
-  }, "Multiples of 3 and 5"), __jsx("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "Problem 1"), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000."), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, sum)));
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
@@ -78,4 +54,4 @@ var App = function App() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.e6309f7875c5633570de.hot-update.js.map
+//# sourceMappingURL=index.js.c7306cc93b6425f11cfc.hot-update.js.map

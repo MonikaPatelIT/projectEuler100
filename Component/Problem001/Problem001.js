@@ -9,7 +9,6 @@ const Problem001 = () => {
 
   return (
     <div>
-      <h1>#ProjectEuler100</h1>
       <div>
         <h3>Multiples of 3 and 5</h3>
         <span>Problem 1</span>

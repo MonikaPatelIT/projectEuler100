@@ -28,7 +28,6 @@ const Problem002 = () => {
 
   return (
     <div>
-      <h1>#ProjectEuler100</h1>
       <div>
         <h3>Even Fibonacci numbers</h3>
         <span>Problem 2</span>
